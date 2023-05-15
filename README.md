@@ -24,7 +24,7 @@ open index.html
 
 ## 📸 Oyun Ekran Görüntüleri
 
-<img src="https://github.com/aslanburak/vote-game/blob/JavaScript/images/githubimage/giris.jpg" width="450px" height="auto">. 
-<img src="https://github.com/aslanburak/vote-game/blob/JavaScript/images/githubimage/nasiloynanir.jpg" width="450px" height="auto">. 
-<img src="https://github.com/aslanburak/vote-game/blob/JavaScript/images/githubimage/oynay%C4%B1s.jpg" width="450px" height="auto">. 
-<img src="https://github.com/aslanburak/vote-game/blob/JavaScript/images/githubimage/bitis.jpg" width="450px" height="auto">.
+<img src="https://github.com/aslanburak/vote-game/blob/JavaScript/images/githubimage/giris.jpg" width="400px" height="auto">
+<img src="https://github.com/aslanburak/vote-game/blob/JavaScript/images/githubimage/nasiloynanir.jpg" width="400px" height="auto">
+<img src="https://github.com/aslanburak/vote-game/blob/JavaScript/images/githubimage/oynay%C4%B1s.jpg" width="400px" height="auto">
+<img src="https://github.com/aslanburak/vote-game/blob/JavaScript/images/githubimage/bitis.jpg" width="400px" height="auto">
