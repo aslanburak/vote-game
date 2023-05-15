@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>VOTE GAME</title>
+    <style>
+/* Griş ekranı */
+#startScreen {
+ background: url("images/ark2.jpg");  
+ background-size: 900px 563px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+      
+}
+#canvasContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  }
+    
+#myCanvas {
+    border: 1px solid black;
+}
+/* Buton formatları */
+  #videoAnlatimButton,
+  #kurallarButton {
+  position: fixed;
+  padding: 10px 25px;
+  background-color: #4B4741; 
+  color: #ffffff; 
+}
+#buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+        
+#restartButton,
+#startButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 18px;
+  
+  background-color: #4B4741; 
+  color: #ffffff; 
+}
+      </style> 
+  </head>
+  <body style="background-color: #040404;">
+   <div id="canvasContainer">
+   <div id="startScreen">
+   <canvas id="canvas" width="900" height="563"></canvas>
+   <div><font color= #633D29 size="25px" align="center">VOTE GAME</font></div>
+   <button id="kurallarButton">Nasıl Oynanır</button>
+   <button id="videoAnlatimButton">Video Anlatım</button>
+   <button id="restartButton">Tekrar Oyna</button>
+   <button id="startButton">Oyuna Başla</button>
+   </div>
+   <script src="oyun.js"></script>
+  </body>
+</html>
